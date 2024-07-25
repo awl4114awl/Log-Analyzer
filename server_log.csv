@@ -1,0 +1,31 @@
+timestamp,level,message
+2023-07-23 10:00:00,INFO,Server started
+2023-07-23 10:05:00,ERROR,Failed to connect to database
+2023-07-23 10:10:00,INFO,User logged in
+2023-07-23 10:15:00,WARNING,Low disk space
+2023-07-23 10:20:00,INFO,User logged out
+2023-07-23 10:25:00,ERROR,Unable to write to log file
+2023-07-23 10:30:00,INFO,Server shut down
+2023-07-23 10:35:00,DEBUG,Debugging mode enabled
+2023-07-23 10:40:00,INFO,New user registered
+2023-07-23 10:45:00,ERROR,Database connection timeout
+2023-07-23 10:50:00,WARNING,High memory usage detected
+2023-07-23 10:55:00,INFO,Server restarted
+2023-07-23 11:00:00,DEBUG,Memory leak detected
+2023-07-23 11:05:00,INFO,Service started successfully
+2023-07-23 11:10:00,ERROR,Service crashed unexpectedly
+2023-07-23 11:15:00,INFO,User session expired
+2023-07-23 11:20:00,WARNING,CPU temperature high
+2023-07-23 11:25:00,DEBUG,Running maintenance tasks
+2023-07-23 11:30:00,INFO,Maintenance completed
+2023-07-23 11:35:00,ERROR,File not found
+2023-07-23 11:40:00,INFO,Backup completed
+2023-07-23 11:45:00,WARNING,Potential security threat detected
+2023-07-23 11:50:00,INFO,Security scan started
+2023-07-23 11:55:00,DEBUG,Security scan in progress
+2023-07-23 12:00:00,INFO,Security scan completed
+2023-07-23 12:05:00,ERROR,Failed to send email
+2023-07-23 12:10:00,WARNING,Unauthorized access attempt
+2023-07-23 12:15:00,INFO,User password changed
+2023-07-23 12:20:00,DEBUG,Verbose logging enabled
+2023-07-23 12:25:00,INFO,Application deployed

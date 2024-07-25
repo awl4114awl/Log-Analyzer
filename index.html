@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Analyzer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Log Analyzer</h1>
+        <div class="mt-4">
+            <input type="file" id="file-input" class="form-control-file">
+        </div>
+        <div class="mt-2">
+            <button id="start-button" class="btn btn-primary">Start</button>
+            <button id="clear-button" class="btn btn-secondary">Clear</button>
+            <button id="download-button" class="btn btn-success">Download Logs</button>
+        </div>
+        <div class="mt-4">
+            <input type="text" id="search-input" class="form-control" placeholder="Search logs...">
+        </div>
+        <div class="mt-2">
+            <label for="filter-select">Log Level:</label>
+            <select id="filter-select" class="form-control">
+                <option value="">All</option>
+                <option value="INFO">INFO</option>
+                <option value="ERROR">ERROR</option>
+                <option value="WARNING">WARNING</option>
+                <option value="DEBUG">DEBUG</option>
+            </select>
+        </div>
+        <div id="log-output" class="mt-4"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
